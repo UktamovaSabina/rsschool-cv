@@ -1,4 +1,4 @@
-###[RS-SCHOOL CV](https://github.com/UktamovaSabina/rsschool-cv/tree/gh-pages/cv.md)
+###[RS-SCHOOL CV](https://UktamovaSabina.github.io/rsschool-cv/cv)
 ***
 Fullname 😊
 : __Uktamova Sabina__
