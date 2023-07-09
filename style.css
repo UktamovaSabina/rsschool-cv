@@ -1,3 +1,187 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: 0.2;
+}
+
 body {
-    background-color: aquamarine;
+    background-color: rgba(240, 240, 108, 0.945);
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1200px;
+    width: 100%;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+/* header */
+header {
+    background-color: rgb(186, 186, 8);
+}
+.header-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.header-container>nav>ul {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 10px;
+}
+
+.navbar-item {
+    cursor: pointer;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+.navbar-item:hover {
+    background-color: whitesmoke;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+
+
+/* main */
+.avatar {
+    display: block;
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+.main-container h1, h2 {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.main-container p{
+    margin-bottom: 20px;
+}
+
+.about-me {
+    max-width: 600px;
+    width: 100%;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 1px;
+    margin: 0 auto;
+}
+
+.skills-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-bottom: 30px;
+}
+
+.skills-list> li {
+    padding: 10px 15px;
+    color: brown;
+    font-weight: 600;
+    border: 2px solid brown;
+    border-radius: 15px;
+}
+
+.code-example {
+    display: block;
+    max-width: 400px;
+    width: 100%;
+    object-fit: contain;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+.experience-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+
+.experience-site-link {
+    color: green;
+    font-weight: 700;
+    font-size: large;
+}
+
+.experience-site-link:hover {
+    color: darkgreen;
+}
+
+.education {
+    font-size: 20px;
+    color: darkgreen;
+    margin-bottom: 20px;
+}
+
+.english-level {
+    font-size: 22px;
+    font-weight: 700;
+}
+
+/* footer */
+footer {
+    background-color:  rgb(186, 186, 8);
+}
+
+.footer-container {
+    padding: 20px;
+}
+
+.contact-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.contact>a {
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 7px;
+}
+
+.contact>a {
+    color: black;
+}
+
+.contact>a:hover {
+    color: green;
+    background-color: whitesmoke;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.footer-credentials {
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+.my-github, .made-year {
+    color: black;
+    font-weight: 800;
+    font-size: large;
+}
+
+.my-github:hover {
+    opacity: 50%;
 }
